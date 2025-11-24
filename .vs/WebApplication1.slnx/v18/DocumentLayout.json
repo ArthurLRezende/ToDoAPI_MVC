@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Arthur\\source\\repos\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\arthur\\source\\repos\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\arthur\\source\\repos\\webapplication1\\webapplication1\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\arthur\\source\\repos\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\arthur\\source\\repos\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1139E486-A36B-6B58-4965-3753D45010A4}|WebApplication1\\WebApplication1.csproj|c:\\users\\arthur\\source\\repos\\webapplication1\\webapplication1\\services\\autenticaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,11 +82,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TarefaController.cs",
               "DocumentMoniker": "C:\\Users\\Arthur\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\TarefaController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TarefaController.cs",
@@ -94,24 +94,11 @@
               "RelativeToolTip": "WebApplication1\\Controllers\\TarefaController.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAkwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T03:09:01.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T03:09:01.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Arthur\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\Arthur\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T13:46:07.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\Arthur\\source\\repos\\WebApplication1\\WebApplication1\\Services\\UsuarioService.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Services\\UsuarioService.cs",
@@ -123,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TarefaRequest.cs",
               "DocumentMoniker": "C:\\Users\\Arthur\\source\\repos\\WebApplication1\\WebApplication1\\Requests\\TarefaRequest.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Requests\\TarefaRequest.cs",
@@ -135,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UsuarioRequest.cs",
               "DocumentMoniker": "C:\\Users\\Arthur\\source\\repos\\WebApplication1\\WebApplication1\\Requests\\UsuarioRequest.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Requests\\UsuarioRequest.cs",
@@ -147,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TarefaService.cs",
               "DocumentMoniker": "C:\\Users\\Arthur\\source\\repos\\WebApplication1\\WebApplication1\\Services\\TarefaService.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Services\\TarefaService.cs",
@@ -159,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TarefaDTO.cs",
               "DocumentMoniker": "C:\\Users\\Arthur\\source\\repos\\WebApplication1\\WebApplication1\\DTOs\\TarefaDTO.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DTOs\\TarefaDTO.cs",
@@ -171,7 +158,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Arthur\\source\\repos\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Users\\Arthur\\source\\repos\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-24T04:21:26.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Arthur\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Arthur\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T13:46:07.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AutenticaController.cs",
               "DocumentMoniker": "C:\\Users\\Arthur\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\AutenticaController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AutenticaController.cs",
@@ -183,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Arthur\\source\\repos\\WebApplication1\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
@@ -204,18 +216,6 @@
               "ViewState": "AgIAAA4AAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T03:45:53.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Arthur\\source\\repos\\WebApplication1\\WebApplication1\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
-              "ToolTip": "C:\\Users\\Arthur\\source\\repos\\WebApplication1\\WebApplication1\\appsettings.json",
-              "RelativeToolTip": "WebApplication1\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-24T04:21:26.849Z"
             },
             {
               "$type": "Document",
