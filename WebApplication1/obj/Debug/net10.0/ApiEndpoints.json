@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "WebApplication1.Controllers.AutenticaController",
+    "Method": "Logar",
+    "RelativePath": "Autentica/LOGIN",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "WebApplication1.Requests.LoginRequest\u002BLoginRequestAuth",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.TarefaController",
+    "Method": "CriaTarefa",
+    "RelativePath": "Tarefa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tarefaReq",
+        "Type": "WebApplication1.Requests.TarefaRequest\u002BTarefaRequestPost",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.TarefaController",
+    "Method": "AtualizarTarefa",
+    "RelativePath": "Tarefa",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tarefaReq",
+        "Type": "WebApplication1.Requests.TarefaRequest\u002BTarefaRequestPut",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.TarefaController",
+    "Method": "BuscarTarefas",
+    "RelativePath": "Tarefa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.UsuarioController",
+    "Method": "CriarUsuario",
+    "RelativePath": "Usuario/AddUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userReq",
+        "Type": "WebApplication1.Requests.UsuarioRequest\u002BUsuarioRequestPost",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
