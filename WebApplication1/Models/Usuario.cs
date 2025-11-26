@@ -2,6 +2,7 @@
 {
     public class Usuario
     {
+        //Contrutor vazio
         public Usuario() { }
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;

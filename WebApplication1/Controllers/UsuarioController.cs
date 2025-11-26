@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -21,19 +23,19 @@ namespace WebApplication1.Controllers
             _service = userService;
         }
 
-        //[HttpGet(Name = "GetUser")]
-
-        //public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuario()
-        //{
-        //    var usuarios = await _dbContext.Usuarios.ToListAsync();
-        //    return Ok(usuarios);
-        //}
-
         [HttpPost("AddUsuario")]
         public async Task<IActionResult> CriarUsuario([FromBody] UsuarioRequestPost userReq)
         {
             var resposta = await _service.AdicionarUsuario(userReq);
             
+            return Ok(resposta);
+        }
+
+        [HttpGet("GetUsers")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> PegarUsuarios()
+        {
+            var resposta = await _service.BuscarUsuarios();
             return Ok(resposta);
         }
     }

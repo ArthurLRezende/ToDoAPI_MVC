@@ -2,6 +2,7 @@
 using WebApplication1.Services;
 using static WebApplication1.Requests.LoginRequest;
 
+//Controller voltada para autenticão do usuario
 namespace WebApplication1.Controllers
 {
     [ApiController]
@@ -17,7 +18,7 @@ namespace WebApplication1.Controllers
             _autenticaService = autenticaService;
         }
 
-        [HttpPost("LOGIN")]
+        [HttpPost("Login")]
         public async Task<IActionResult> Logar(LoginRequestAuth req)
         {
             var usuario = await _usuarioService.BuscarPorEmail(req.Email);

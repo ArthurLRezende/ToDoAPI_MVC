@@ -30,9 +30,16 @@ namespace WebApplication1.Controllers
         public async Task<IActionResult> AtualizarTarefa(TarefaRequestPut tarefaReq) 
         {
             var userId = int.Parse(User.Claims.First(c => c.Type == "id").Value);
-            var tarefaDTO = await _service.AtualizarTarefa(tarefaReq, userId);
-            if (tarefaDTO == null) { return Unauthorized("Tarefa não encontrada"); }
-            return Ok(tarefaDTO);
+            try
+            {
+                var tarefaDTO = await _service.AtualizarTarefa(tarefaReq, userId);
+                if (tarefaDTO == null) { return Unauthorized("Tarefa não encontrada"); }
+                return Ok(tarefaDTO);
+            }
+            catch (Exception error)
+            {
+                return BadRequest(error.Message);
+            }
         }
 
         [HttpGet]
@@ -46,5 +53,23 @@ namespace WebApplication1.Controllers
 
             return Ok(lista);
         }
+
+        [HttpDelete]
+        [Authorize]
+        public async Task<IActionResult> DeletarTarefa(int idTarefa)
+        {
+            var userId = int.Parse(User.Claims.First(c => c.Type == "id").Value);
+
+            try
+            {
+                var tarefa = await _service.DeletarTarefa(idTarefa, userId);
+                return Ok($"Tarefa deletada com sucesso: {tarefa}");
+            }
+            catch (Exception error)
+            {
+                return BadRequest(error.Message);
+            }
+        }
+
     }
 }
